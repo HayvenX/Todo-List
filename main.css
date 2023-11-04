@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.outside-container {
+    background-color: darkslateblue;
+    border-radius: 15%;
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 18px;
+}
+
+.inner-container {
+    background-color: indigo;
+    min-height: 380px;
+    max-height: auto;
+    width: 440px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+input {
+    width: 220px;
+}
+
+button {
+    margin-left: 3px;
+}
+
+.active-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+ol {
+    color: white;
+    font-size: 24px;
+    margin-left: 8px;
+}
