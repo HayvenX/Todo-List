@@ -9,6 +9,17 @@ function AddtoList()
     ListItem.innerText = Input.value
     list.appendChild(ListItem)
     Input.value = ""
+
+        
+    ListItem.onclick = function()
+    {
+        ListItem.style.textDecoration = "line-through"
+        function DeleteChild()
+        {
+            list.removeChild(ListItem)
+        }
+        setTimeout(DeleteChild, 1000)
+    }
 }
 
 function clearList()
