@@ -82,14 +82,6 @@ function AddtoList()
     }
 }
 
-function clearList()
-{
-    while(list.childElementCount > 0)
-    {
-        list.removeChild(list.firstChild)
-    }
-}
-
 AddToList.onclick = function()
 {
     if(Input.value !== "")
@@ -99,5 +91,9 @@ AddToList.onclick = function()
 }
 ClearList.onclick = function()
 {
-    clearList()
+    
+    while(list.childElementCount > 0)
+    {
+        list.removeChild(list.firstChild)
+    }
 }
